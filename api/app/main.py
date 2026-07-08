@@ -4,7 +4,7 @@ from fastapi import FastAPI
 
 from .routers import analytics, assembly, assets, publish, scripts, story_bible, video, voice
 
-app = FastAPI(title="Short Drama Factory API")
+app = FastAPI(title="Short Drama Pipeline API")
 
 app.include_router(story_bible.router, prefix="/story-bible", tags=["story-bible"])
 app.include_router(scripts.router, prefix="/scripts", tags=["scripts"])

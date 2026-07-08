@@ -5,7 +5,7 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    database_url: str = "postgresql://factory:factory@localhost:5432/short_drama_factory"
+    database_url: str = "postgresql://factory:factory@localhost:5432/short_drama_pipeline"
 
     anthropic_api_key: str = ""
 
