@@ -1,6 +1,6 @@
 # Short Drama Pipeline
 
-Automated pipeline that turns a one-line prompt ("CEO falls in love with his bodyguard") into a 13-episode, vertical, AI-generated short drama — story bible, scripts, video, voice, subtitles, and a published post — with human review at three checkpoints.
+Automated pipeline that turns a one-line prompt into a 13-episode, vertical, AI-generated short drama — story bible, scripts, video, voice, subtitles, and a published post — with human review at three checkpoints.
 
 Full architecture, tool comparisons, and rationale: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
