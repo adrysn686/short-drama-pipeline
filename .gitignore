@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+storage/*
+!storage/.gitkeep
+n8n_data/
+postgres_data/
+*.log
+.DS_Store
+node_modules/
